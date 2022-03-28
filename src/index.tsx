@@ -10,7 +10,7 @@ import { AboutUs } from "./aboutUs";
 
 ReactDOM.render(
     <React.StrictMode>
-     <BrowserRouter basename={window.location.pathname || ''}>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Main />
     </BrowserRouter>
     </React.StrictMode>,

@@ -23,7 +23,7 @@ export const NavMenu: React.FC<Props> = (props) => {
           fixed="top"
           light
         >
-          <NavbarBrand href="/">
+          <NavbarBrand href={process.env.PUBLIC_URL + '/'}>
             Physics
           </NavbarBrand>
           <NavbarToggler onClick={function counter(){}} />
@@ -33,7 +33,7 @@ export const NavMenu: React.FC<Props> = (props) => {
               navbar
             >
               <NavItem>
-                <NavLink href="../" style={{color:"cyan"}}>
+                <NavLink href="/physics-solver-react/" style={{color:"cyan"}}>
                   Question Solver
                 </NavLink>
               </NavItem>
@@ -60,13 +60,18 @@ export const NavMenu: React.FC<Props> = (props) => {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/about-us/" style={{color:"yellow"}}>
-                  About us
+                <NavLink href={process.env.PUBLIC_URL + '/about'} style={{color:"yellow"}}>
+                  About this website
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/parsa-j42/" style={{color:"orange"}}>
-                  GitHub
+                <NavLink href="/" style={{color:"orange"}}>
+                  About me
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/parsa-j42/physics-solver-react" style={{color:"red"}}>
+                  Source code (GitHub)
                 </NavLink>
               </NavItem>
             </Nav>
