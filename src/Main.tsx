@@ -5,8 +5,8 @@ import {AboutUs} from './aboutUs';
 const Main = () => {
     return (         
         <Routes>
-        <Route path='/' element={<App/>} />
-        <Route path='/about-us' element={<AboutUs/>} />
+        <Route path='/physics-solver-react' element={<App/>} />
+        <Route path='/physics-solver-react/about-us' element={<AboutUs/>} />
     </Routes>
     );
 }
