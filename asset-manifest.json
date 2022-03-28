@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/physics-solver-react/static/css/main.e7720ab7.css",
-    "main.js": "/physics-solver-react/static/js/main.84039cc9.js",
+    "main.js": "/physics-solver-react/static/js/main.050ebd2f.js",
     "index.html": "/physics-solver-react/index.html",
     "main.e7720ab7.css.map": "/physics-solver-react/static/css/main.e7720ab7.css.map",
-    "main.84039cc9.js.map": "/physics-solver-react/static/js/main.84039cc9.js.map"
+    "main.050ebd2f.js.map": "/physics-solver-react/static/js/main.050ebd2f.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.84039cc9.js"
+    "static/js/main.050ebd2f.js"
   ]
 }
